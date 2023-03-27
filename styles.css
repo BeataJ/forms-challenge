@@ -2,4 +2,21 @@
 
 body {
     font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(218, 238, 241);
+}
+
+h1 {
+    text-align: center;
+}
+
+
+form {
+    width: 40rem;
+    margin: 3rem auto;
+    background-color: rgb(246, 237, 237);
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 10px 5px 5px rgb(157, 155, 155);
 }
