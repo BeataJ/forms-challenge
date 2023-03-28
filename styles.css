@@ -31,7 +31,7 @@ label {
     margin-bottom: 0.5rem;
 }
 
-input, textarea {
+input, textarea, select {
     display: block;
     width: 100%;
     margin-bottom: 1rem;
@@ -52,5 +52,14 @@ textarea:hover {
 
 textarea {
     resize: vertical;
+}
+
+.form-control-inline {
+    display: flex;
+}
+
+.form-control-inline input {
+    width: auto;
+    margin-right: 0.5rem;
 }
 
