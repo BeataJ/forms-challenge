@@ -49,7 +49,7 @@
                     <option value="websearch">Web Search</option>
                     <option value="indeed">Indeed</option>
                     <option value="google">Google</option>
-                    <option value="twiter">Twiter</option>
+                    <option value="twitter">Twitter</option>
                 </select>
             </li>
           </ul>
@@ -59,21 +59,23 @@
             <h2>How should we replay?</h2>
             <ul>
                 <li class="form-control-inline">
-                    <input type="radio" name="user-call" id="call">
+                    <input type="radio" name="verify" id="call" value="v-call" required>
                     <label for="call">Call me</label>
                 </li>
                 <li class="form-control-inline">
-                    <input type="radio" name="user-email" id="email">
+                    <input type="radio" name="verify" id="email" value="v-email" required>
                     <label for="email">Send me an email</label>
                 </li>
                 <li class="form-control-inline">
-                    <input type="radio" name="no-replay" id="noreplay">
+                    <input type="radio" name="verify" id="noreplay" v-noreplay required>
                     <label for="noreplay">Don't replay</label>
                 </li>
             </ul>
         </section>
 
-        
+        <section>
+            <button type="submit">Submit</button>
+        </section>
       </form>
     </main>
   </body>
