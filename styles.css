@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(218, 238, 241);
+    color: rgb(64, 49, 29)
 }
 
 h1 {
@@ -40,14 +41,14 @@ input, textarea, select {
     border-radius: 6px;
     font: inherit;
     padding: 0.25rem;
-    color: rgb(52, 157, 223)
+    color: rgb(64, 49, 29)
 }
 
 input:hover,
 textarea:hover {
-    background-color: rgb(220, 233, 241);
-    color: rgb(52, 157, 223);
-    border-color: rgb(52, 157, 223);;
+    background-color: rgb(197, 186, 151);
+    color: rgb(64, 49, 29);
+    border-color: rgb(81, 65, 43);;
 }
 
 textarea {
