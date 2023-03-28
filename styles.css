@@ -64,3 +64,24 @@ textarea {
     margin-right: 0.5rem;
 }
 
+.btn {
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+}
+
+button {
+    font: inherit;
+    background-color: rgb(232, 55, 55);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border: 2px solid rgb(232, 55, 55);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(237, 96, 96);
+    border-color: rgb(237, 96, 96);
+}
+
