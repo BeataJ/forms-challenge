@@ -31,7 +31,7 @@ label {
     margin-bottom: 0.5rem;
 }
 
-input {
+input, textarea {
     display: block;
     width: 100%;
     margin-bottom: 1rem;
@@ -43,9 +43,14 @@ input {
     color: rgb(52, 157, 223)
 }
 
-input:hover {
+input:hover,
+textarea:hover {
     background-color: rgb(220, 233, 241);
     color: rgb(52, 157, 223);
     border-color: rgb(52, 157, 223);;
+}
+
+textarea {
+    resize: vertical;
 }
 
