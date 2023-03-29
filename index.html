@@ -44,40 +44,65 @@
         <section>
           <ul>
             <li>
-                <label for="websearch">How did you find us?</label>
-                <select name="web-search" id="websearch">
-                    <option value="websearch">Web Search</option>
-                    <option value="indeed">Indeed</option>
-                    <option value="google">Google</option>
-                    <option value="twitter">Twitter</option>
-                </select>
+              <label for="websearch">How did you find us?</label>
+              <select name="web-search" id="websearch">
+                <option value="websearch">Web Search</option>
+                <option value="indeed">Indeed</option>
+                <option value="google">Google</option>
+                <option value="twitter">Twitter</option>
+              </select>
             </li>
           </ul>
         </section>
 
         <section>
-            <h2>How should we replay?</h2>
-            <ul>
-                <li class="form-control-inline">
-                    <input type="radio" name="verify" id="call" value="v-call" required>
-                    <label for="call">Call me</label>
-                </li>
-                <li class="form-control-inline">
-                    <input type="radio" name="verify" id="email" value="v-email" required>
-                    <label for="email">Send me an email</label>
-                </li>
-                <li class="form-control-inline">
-                    <input type="radio" name="verify" id="noreplay" v-noreplay required>
-                    <label for="noreplay">Don't replay</label>
-                </li>
-            </ul>
+          <h2>How should we replay?</h2>
+          <ul>
+            <li class="form-control-inline">
+              <input
+                type="radio"
+                name="verify"
+                id="call"
+                value="v-call"
+                required
+              />
+              <label for="call">Call me</label>
+            </li>
+            <li class="form-control-inline">
+              <input
+                type="radio"
+                name="verify"
+                id="email"
+                value="v-email"
+                required
+              />
+              <label for="email">Send me an email</label>
+            </li>
+            <li class="form-control-inline">
+              <input
+                type="radio"
+                name="verify"
+                id="noreplay"
+                v-noreplay
+                required
+              />
+              <label for="noreplay">Don't replay</label>
+            </li>
+          </ul>
         </section>
 
         <section>
-            <div class="btn">
-                <button type="reset">Reset</button>
-                <button type="submit">Submit</button>
-            </div>
+          <div class="form-control-inline">
+            <input type="checkbox" name="terms" id="agree-terms" />
+            <label for="agree-terms">Agree to terms?</label>
+          </div>
+        </section>
+
+        <section>
+          <div class="btn">
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+          </div>
         </section>
       </form>
     </main>
