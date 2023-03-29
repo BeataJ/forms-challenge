@@ -10,6 +10,7 @@ body {
 
 h1 {
     text-align: center;
+    margin: 1.5rem;
 }
 
 ul {
@@ -20,7 +21,7 @@ ul {
 
 form {
     width: 40rem;
-    margin: 3rem auto;
+    margin: auto;
     background-color: rgb(246, 237, 237);
     padding: 1rem;
     border-radius: 6px;
