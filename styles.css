@@ -70,6 +70,12 @@ textarea {
     gap: 1rem;
 }
 
+#clear {
+    background-color: white;
+    color:rgb(64, 49, 29);
+    border-color:rgb(64, 49, 29)
+}
+
 button {
     font: inherit;
     background-color: rgb(232, 55, 55);
