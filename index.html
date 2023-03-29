@@ -12,7 +12,7 @@
       <h1>Contact Us</h1>
     </header>
     <main>
-      <form action="/" method="get">
+      <form action="/" method="GET">
         <section>
           <h2>How can we help you?</h2>
           <ul>
@@ -37,14 +37,14 @@
             </li>
             <li>
               <label for="message">Your Message</label>
-              <textarea name="user-message" id="message" rows="10"></textarea>
+              <textarea name="user-message" id="message" rows="10" required></textarea>
             </li>
           </ul>
         </section>
 
         <section>
           <label for="websearch">How did you find us?</label>
-          <select name="web-search" id="websearch">
+          <select name="web-search" id="websearch" required>
             <option value="websearch">Web Search</option>
             <option value="indeed">Indeed</option>
             <option value="google">Google</option>
@@ -90,7 +90,7 @@
         <br />
         <section>
           <div class="form-control-inline">
-            <input type="checkbox" name="terms" id="agree-terms" />
+            <input type="checkbox" name="terms" id="agree-terms" required/>
             <label for="agree-terms">Agree to terms?</label>
           </div>
         </section>
